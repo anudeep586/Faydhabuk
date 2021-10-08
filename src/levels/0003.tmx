@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="13" height="13" tilewidth="32" tileheight="32" nextobjectid="11">
+ <properties>
+  <property name="steps" type="int" value="25"/>
+ </properties>
+ <tileset firstgid="1" source="../../resources/tiled/tiled.tsx"/>
+ <layer name="base" width="13" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,1,1,0,0,0,0,0,0,0,
+0,0,0,0,1,1,1,1,1,1,1,0,0,
+0,0,0,0,1,0,0,0,0,0,1,0,0,
+0,0,0,0,1,0,0,0,0,0,1,0,0,
+0,0,0,0,1,0,0,0,0,1,1,0,0,
+0,0,0,0,1,0,0,0,0,1,1,0,0,
+0,0,0,0,1,1,1,1,1,1,0,0,0,
+0,0,0,0,0,0,1,1,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="gates" width="13" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,3,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,4,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="triggers" width="13" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,10,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,9,2,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="1" name="bush" x="224" y="224" width="32" height="32"/>
+  <object id="2" name="tree" x="352" y="320" width="32" height="32"/>
+  <object id="3" name="pinetree" x="32" y="96" width="32" height="32"/>
+  <object id="4" name="tree" x="96" y="32" width="32" height="32"/>
+  <object id="5" name="tree" x="64" y="352" width="32" height="32"/>
+  <object id="6" name="pinetree" x="288" y="64" width="32" height="32"/>
+  <object id="7" name="tree" x="224" y="32" width="32" height="32"/>
+  <object id="8" name="tree" x="352" y="96" width="32" height="32"/>
+  <object id="9" name="pinetree" x="192" y="256" width="32" height="32"/>
+  <object id="10" name="bush" x="32" y="224" width="32" height="32"/>
+ </objectgroup>
+</map>
